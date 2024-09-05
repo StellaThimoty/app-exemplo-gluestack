@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "app-exemplo-gluestack",
-    "slug": "app-exemplo-gluestack",
+    "name": "gnu-uguu",
+    "slug": "gnu-uguu",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "gnu-uguu",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -27,7 +27,9 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-font",
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true
